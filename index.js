@@ -18,7 +18,7 @@ for(let t = 0; t < canvas.width; t++){
     console.log(modularFreq);
     y1 = (2*OSCILLATOR_AMPLITUDE)*Math.sin(994*NORM_PERIOD*t);
     ctx.lineTo(t,y1+canvas.height/2);
-    ctx.stroke();   
+    ctx.stroke();       
 }
 ctx.closePath();
 
